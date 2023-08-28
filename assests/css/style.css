@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(24, 101, 163);
+
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto auto auto;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.container p {
+    margin: 15px 0;
+}
+
+.tarefas {
+    margin-left: 30px;
+}
+
+.input-tarefa {
+    border: 2px solid rgb(64, 105, 194);
+    outline: none;
+}
+
+.input-tarefa:focus {
+    box-shadow: 0 0 10px 1px rgb(24, 14, 116);
+}
+
+.btn-tarefa,
+.tarefas button {
+    margin: 2px;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(113, 175, 226);
+    cursor: pointer;
+}
+
+.btn-tarefa:hover,
+.tarefas button:hover {
+    color: white;
+}
+
+.custom-alert {
+    display: none;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.alert-content {
+    text-align: center;
+}
+
+#close-alert {
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
